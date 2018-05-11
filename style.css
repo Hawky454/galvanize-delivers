@@ -30,6 +30,7 @@ background-color: #1564c0;
 }
 
 h1 {
+  font-size: 60px;
   padding: 200px 200px 0px 200px;
 }
 
@@ -42,7 +43,7 @@ h1 {
 
   p {
     font-size: 13px;
-    display: grid;
+
 
   }
 
