@@ -1,0 +1,68 @@
+body{
+background-color: #1564c0;
+}
+
+/*!!!!top!!!! */
+
+.topleft {
+  display: inline;
+  color: white;
+
+}
+
+.top-button {
+  float: right;
+  background-color: Transparent;
+  color: white;
+  padding: 5px;
+  border: none;
+
+}
+
+/*!!!!center!!!!*/
+
+.one {
+  color: white;
+  background-image: url("img/hero.jpg");
+  text-align: center;
+  height: 500px;
+
+}
+
+h1 {
+  padding: 200px 200px 0px 200px;
+}
+
+.mid-button {
+  background-color: #ff3f80;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 0px;
+  }
+
+  p {
+    font-size: 13px;
+    display: grid;
+
+  }
+
+  .two {
+    background-color: white;
+  }
+
+  .shop {
+    color: #ff3f80;
+    display:block;
+    padding-top: 0px 10px;
+  }
+
+  .three {
+    color: white;
+  }
+
+/*!!!!footer!!!!*/
+  .copyright {
+    background-color: #0d47a1;
+    padding: 20px 40px;
+    margin: 0px;
+  }
