@@ -1,9 +1,14 @@
 body{
 background-color: #1564c0;
-margin: inherit;  
+margin: inherit;
 }
 
 /*!!!!top!!!! */
+.header {
+  padding-top: 20px;
+  height: .2em;
+
+}
 
 .topleft {
   display: inline;
@@ -28,9 +33,8 @@ margin: inherit;
   background-image: url("img/hero.jpg");
   text-align: center;
   height: 500px;
-  margin: 0px;
-
 }
+
 
 h1 {
   font-size: 60px;
@@ -47,27 +51,69 @@ h1 {
 
   p {
     font-size: 13px;
-
-
+    /* display: block; */
   }
 
-  .two {
+
+.two {
+    /* display: flex; */
     background-color: white;
+    padding: 25px 25px;
+
   }
 
-  .shop {
+.features {
+  background-color: white;
+  display: flex;
+}
+
+.shopping {
+  padding-left:50px;
+  padding-right: 50px;
+}
+
+.delivery {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.deals {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+ .shop {
     color: #ff3f80;
-    display:block;
-    padding-top: 0px 10px;
   }
 
-  .three {
-    color: white;
-  }
+  /*!!!!bottom!!!!*/
+
+.nav-flex {
+  display: flex;
+  color: white;
+}
+
+.bottom-left {
+  padding: 20px 50px;
+}
+
+.bottom-right {
+  padding: 30px 0px 20px 1000px;
+}
+
 
 /*!!!!footer!!!!*/
   .copyright {
     background-color: #0d47a1;
     padding: 20px 40px;
     margin: 0px;
+    color: white;
+  }
+
+  .bottom-btn {
+    background-color: Transparent;
+    color: white;
+    padding: 0px;
+    font-size: 13px;
+    border: none;
   }
